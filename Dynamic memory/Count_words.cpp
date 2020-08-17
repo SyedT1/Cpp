@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void readline(char *&p){
-   	p = new char [100];
+    p = new char [100];
     cin.getline(p,100);
 }
 void count_words(char *p,int *numofwords){
