@@ -40,7 +40,7 @@ int main(){
         }
       }
       if(even){
-        for(int i = even+1;i<100-1;i++){
+        for(int i = even;i<100-1;i++){
           for(int j = i+1;j<100;j++){
             if(p[i]>p[j]){
               swap(p[i],p[j]);
