@@ -7,8 +7,8 @@ int main(){
 			div++;
 			q=(int *)realloc(p,div*(sizeof(int)));
 			if(q!=NULL){
-                p=q;
-                p[div-1]=i;
+                          p=q;
+                          p[div-1]=i;
 			}
 			else{
 			    free(p);
