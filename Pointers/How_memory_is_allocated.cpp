@@ -27,5 +27,6 @@ int main(){
    which is equal to 4 because during typing casting we have added 1 to
    the char pointer as (int)*(c+1)
  */
+ 
  return 0;
 }
