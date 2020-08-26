@@ -6,12 +6,12 @@ int passperfect(int x) {
 }
 int main() {
 	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-	int *p = NULL, q = 0, n; cin >> n;
+	freopen("out.txt", "w", stdout);
+	int *p = nullptr, q = 0, n; cin >> n;
 	for (int i = 1; i <= n; i++) {
 		if (passperfect(i)) {
 			q++;
-			if (p == NULL) {
+			if (p == nullptr) {
 				p = (int *)malloc(sizeof(int));
 			} else {
 				p = (int *)realloc(p, q * sizeof(int));
