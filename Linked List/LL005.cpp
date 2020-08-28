@@ -4,12 +4,11 @@ struct node {
 	int x;
 	node *next = nullptr;
 };
-void insert_at_beginning(node *&f, int t, node *&cl) {
+void insert_at_beginning(node *&f, int t) {
 	node *no = new node;
 	no->x = t;
 	no->next = f;
 	f = no;
-	cl = f;
 }
 void insert_at_nth_position(node *&beads, int kth) {
 	node *notun = new node, *right = beads->next;
@@ -25,7 +24,7 @@ int main() {
 	node *beads = new node, *another, *cl;
 	beads = nullptr;
 	for (int i = 1; i <= n; i++) {
-		insert_at_beginning(beads, in(), cl);
+		insert_at_beginning(beads, in());
 	}
 	another = beads, cl = beads;
 	while (another != nullptr) {
@@ -34,14 +33,19 @@ int main() {
 	}
 	cout << '\n';
 	cin >> nth >> kth;
-	nth -= 2;
-	if (nth < 0) {
-		insert_at_beginning(beads, kth, cl);
-	} else {
+	if (nth == 1) {
+		node *temp = new node;
+		temp->x = kth;
+		temp->next = beads;
+		cl = temp;
+	} else if (nth > 1 && nth <= n) {
+		nth -= 2;
 		while (nth--) {
 			beads = beads->next;
 		}
 		insert_at_nth_position(beads, kth);
+	} else {
+		cout << "invalid!\n";
 	}
 	while (cl != nullptr) {
 		cout << cl->x << ' ';
