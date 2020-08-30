@@ -28,30 +28,15 @@ int main() {
 			cout << del->x << ' ';
 		}
 	}
-	else if (delete_nth_node == n) {
-		node *temp = del, *ly;
-		for (int i = 1; i < delete_nth_node - 1; i++) {
-			del = del->next;
-		}
-		ly = del->next;
-		delete ly;
-		del->next = nullptr;
-		while (temp != nullptr) {
-			cout << temp->x << '\n';
-			temp = temp->next;
-		}
-	}
 	else {
-		node *temp = del, *ly;
 		for (int i = 1; i <= delete_nth_node - 2; i++) {
 			del = del->next;
 		}
-		node *deleted = del->next;
+		node *temp = del->next;
 		del->next = del->next->next;
-		delete deleted;
-		while (temp != nullptr) {
-			cout << temp->x << '\n';
-			temp = temp->next;
+		delete temp;
+		for (node *st = start_p; st != nullptr; st = st->next) {
+			cout << st->x << ' ';
 		}
 	}
 }
