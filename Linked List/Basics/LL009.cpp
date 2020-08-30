@@ -29,6 +29,6 @@ int main(){
 		linked_list = linked_list->next;
 	}
 	//Print the list recursively
-    printrecur(start);
-	return 0;
+       printrecur(start);
+       return 0;
 }
