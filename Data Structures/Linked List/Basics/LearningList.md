@@ -1,0 +1,10 @@
+Singly
+  |
+  |
+Doubly
+  |
+  |
+Circular
+  |
+  |
+ Skip
