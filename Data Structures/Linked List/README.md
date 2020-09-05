@@ -1,5 +1,5 @@
- **Linked List Contents**
- =======================
+ **Contents**
+ ==========
  
 - **Singly Linked List**
 - **Doubly Linked List**
