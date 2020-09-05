@@ -1,4 +1,4 @@
-#Contents Covered:-
+# Contents Covered -
 0. **Recursion**
 1. **Pointers**
 2. **Dynamic Memory**
