@@ -25,4 +25,5 @@ int main() {
 		cout << start->x << '\n';
 		start = start->next;
 	}
+	return 0;
 }
