@@ -16,4 +16,5 @@ int main() {
     p->next = q;
     q->next = r;
     cout << p->x << '\n' << p->next->x << '\n' << p->next->next->x;
+    return 0;
 }
