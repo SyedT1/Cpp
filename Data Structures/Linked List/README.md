@@ -1,11 +1,11 @@
-Linked List Contents:
-1. Singly Linked List
-2. Doubly Linked List
-3. Circular Linked List
-4. Skip List
+# Linked List Contents:
+* Singly Linked List
+* Doubly Linked List
+* Circular Linked List
+* Skip List
 
 
-Roadmap:-
+# Roadmap:-
 
 
   Singly -> Doubly -> Circular -> Skip
