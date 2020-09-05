@@ -1,13 +1,1 @@
-Singly
-  |
-  |
-Doubly
-  |
-  |
-Circular
-  |
-  |
- Skip
-  |
-  |
- End
+Singly Linked List (000 to 019)
