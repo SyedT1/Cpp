@@ -1,5 +1,4 @@
-# Cpp
-# Understanding C++ Through
-# Data Structures
-# Algorithms
-# STL
+# Understanding C++ Through:-
+* Data Structures
+* Algorithms
+* STL
