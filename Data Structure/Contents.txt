@@ -1,6 +1,0 @@
-Contents covered:-
-
-0. Recursion
-1. Pointers
-2. Structs
-3. Linked List
