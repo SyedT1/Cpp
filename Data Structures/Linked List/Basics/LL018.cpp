@@ -23,7 +23,6 @@ int main() {
 		if (i) {p->next = new node; p = p->next;}
 		cin >> p->x;
 	}
-	//Reversing the list
 	node *prev = nullptr, *curr = q, *next_one;
 	for (; curr != nullptr;) {
 		next_one = curr->next;
