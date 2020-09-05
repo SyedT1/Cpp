@@ -1,4 +1,4 @@
-** 0. Understanding Nodes
-** Creating Nodes
-** Connecting Nodes
-** More..
+* Understanding Nodes
+* Creating Nodes
+* Connecting Nodes
+* More..
