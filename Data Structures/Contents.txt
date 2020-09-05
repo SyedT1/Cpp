@@ -1,0 +1,6 @@
+Contents Covered:-
+0. Recursion
+1. Pointers
+2. Dynamic Memory
+3. Structs
+4. Linked List
