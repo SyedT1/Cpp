@@ -8,6 +8,7 @@ bool palindromic_or_not(node *s, node *q) {
 	for (; s != nullptr && q != nullptr; s = s->next, q = q->next) {
 		if (s->x != q->x) {
 			return false;
+			//then it will not be palindrome
 		}
 	}
 	return true;
@@ -22,6 +23,7 @@ int main() {
 		if (i) {p->next = new node; p = p->next;}
 		cin >> p->x;
 	}
+	//Reversing the list
 	node *prev = nullptr, *curr = q, *next_one;
 	for (; curr != nullptr;) {
 		next_one = curr->next;
@@ -31,4 +33,5 @@ int main() {
 	}
 	//Check if it's palindromic
 	cout << (palindromic_or_not(prev, q) ? "Yes" : "No") << '\n';
+	return 0;
 }
