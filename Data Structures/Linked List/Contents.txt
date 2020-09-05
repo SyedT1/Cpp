@@ -1,0 +1,9 @@
+Contents in order:-
+1. Singly Linked List
+2. Doubly Linked List
+3. Circular Linked List
+4. Skip List
+
+Roadmap->->->
+
+   Singly Linked List->Doubly Linked List-> Circular Linked List -> Skip List
