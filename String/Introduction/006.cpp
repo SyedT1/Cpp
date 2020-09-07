@@ -25,4 +25,5 @@ int main() {
 	freopen("output.txt", "w", stdout);
 	string c; cin >> c; pal(c);
 	return 0;
+	//
 }
