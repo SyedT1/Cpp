@@ -10,7 +10,7 @@ int main() {
 	  size. And then we can directly print the array without iterating
 	  character by character
 	*/
-	char c[] = {'r', 'e', 'a', 'd', 'e'};
+	char c[] = {'r', 'e', 'a', 'd', 'e', '\0'};
 	/*
 	  Iterate until c[index]!=null char
 	  because a character array/string always end with null character
