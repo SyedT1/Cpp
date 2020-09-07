@@ -23,7 +23,6 @@ void pal(string p) {
 int main() {
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
-	string c; cin >> c;
-	pal(c);
+	string c; cin >> c; pal(c);
 	return 0;
 }
