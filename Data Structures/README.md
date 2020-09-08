@@ -7,3 +7,4 @@ Contents Covered -
 - **File Handling**
 - **Structs**
 - **Linked List**
+- **Stack**
