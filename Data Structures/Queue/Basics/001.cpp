@@ -5,6 +5,7 @@ struct myQueue {
     int *num = new int[numEl];
     int head = 0;
     int tail = 0;
+    int numLeft = 0;
 };
 void enlarge(myQueue *&r, int t) {
     r->num = (int *)realloc(r->num, t * sizeof(int));
@@ -16,10 +17,12 @@ void enqueue(myQueue *&r, int x)  {
     }
     r->num[r->tail] = x;
     r->tail = r->tail + 1;
+    r->numLeft = r->tail - r->head;
 }
 int dequeue(myQueue *&p) {
     int pnum = p->num[p->head];
     p->head = p->head + 1;
+    p->numLeft = p->tail - p->head;
     return pnum;
 }
 int main() {
@@ -34,12 +37,9 @@ int main() {
     enqueue(pack, 36);
     enqueue(pack, 49);
     enqueue(pack, 64);
-    cout << "Enqueued = ";
-    for (int i = 0; i < pack->tail; i++) {
-        cout << pack->num[i] << '\n';
-    }
     cout << "Dequeued = \n";
     cout << dequeue(pack) << '\n';
     cout << dequeue(pack) << '\n';
+    cout << "Number of elements left =  " << pack->numLeft << '\n';
     return 0;
 }
