@@ -39,7 +39,7 @@ void Unique_elements(Link *r) {
                 ls += s[i];
             }
         }
-show:
+        show:
         if (s.size()) {
             domain[cap++] = ls;
         }
