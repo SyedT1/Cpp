@@ -23,7 +23,7 @@ void Unique_elements(Link *r) {
             capsize++;
         }
     }
-    string domain[capsize];
+    string *domain = new string[capsize];
     for (Link *q = r; q; q = q->next) {
         string s = q->col[2], ls;
         bool done = false;
