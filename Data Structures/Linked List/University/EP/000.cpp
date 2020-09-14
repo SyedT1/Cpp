@@ -74,11 +74,12 @@ int main() {
         s++;
     }
     file.close();
+    string info[7] = {"Message ID = ", "Status = ", "Email Address = ", "Subject = ", " Date = ", " Time = ", " Bounce reason = "};
     for (; start; start = start->next) {
         for (int i = 0; i < start->index; i++) {
-            cout << start->col[i] ;
+            cout << info[i] << start->col[i] << '\n' ;
         }
-        cout << '\n';
+        cout << string(2, '\n');
     }
     return 0;
 }
