@@ -25,8 +25,8 @@ Bounce reason: 	In case if the email is not delivered to the desired recipient a
 # The Challenge:
 Read the data file using c++ language and upload all the data in the linked list. Note  that you have to create a new structure for this data set which includes fields of each of the data items. Also note that date and time should be stored separately. 
 After loading all the data into the linked list answer following questions:
-    1. *[5 Points]* There are 10 distinct Status associated with each message, giving the count of each status. You have to write a separate function which will perform this count and return back the result in 2D dynamic array. The report of this 2D array should be printed by a separate function. Give a nice way of representation.
-    2. *[5 Points]* Categorize recipients according to their domain. Print all the distinct domains of the email recipients. Note that yahoo.com and yahoo.co.uk are the same domain which belongs to yahoo.
-    3. *[5 Points]* On 2-Sep-2020, how many emails were sent in total. What is the average time difference between the time of send operations
-    4. *[5 Points]* How many emails were sent without any bounce
-    5. *[5 Points]* Create a new linked list and store all the messages whose status are “Delivered” in it. Don’t forget to delete those messages from the first linked list.
+ 1. [5 Points] There are 10 distinct Status associated with each message, giving the count of each status. You have to write a separate function which will perform this count and return back the result in 2D dynamic array. The report of this 2D array should be printed by a separate function. Give a nice way of representation.
+ 2. [5 Points] Categorize recipients according to their domain. Print all the distinct domains of the email recipients. Note that yahoo.com and yahoo.co.uk are the same domain which belongs to yahoo.
+ 3. [5 Points] On 2-Sep-2020, how many emails were sent in total. What is the average time difference between the time of send operations
+ 4. [5 Points] How many emails were sent without any bounce
+ 5. [5 Points] Create a new linked list and store all the messages whose status are “Delivered” in it. Don’t forget to delete those messages from the first linked list.
