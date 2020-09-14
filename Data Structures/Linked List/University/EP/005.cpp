@@ -73,7 +73,7 @@ void Delivered_and_refreshed(Link *k) {
             total++;
         }
     }
-delete_again:
+    delete_again:
     for (Link *r = k; r->next; r = r->next) {
         if (r->next->col[1] == "Delivered") {
             Link *notun = r->next;
