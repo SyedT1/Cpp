@@ -2,7 +2,7 @@
 #include<fstream>
 using namespace std;
 struct Link {
-    string col[6];
+    string *col = new string[7];
     int index = 0;
     Link *next = nullptr;
 };
@@ -15,19 +15,34 @@ cleanup:
         }
     }
 }
+void date_and_time(Link *&k, string l) {
+    string d;
+    int i = 0;
+    for (; !isspace(l[i]); i++) {
+        d += l[i];
+    }
+    l = &l[i + 1];
+    k->col[k->index] = d;
+    k->index = k->index + 1;
+    k->col[k->index] = l;
+}
 void read_separately(Link *&k, string l) {
     string store;
     int shuru = 0;
     for (char c : l) {
         shuru++;
         if (c == ',') {
-            if (k->index == 5) {
+            if (k->index == 6) {
                 k->col[k->index] = store;
                 k->col[k->index] = k->col[k->index] + &l[shuru];
                 k->index = k->index + 1;
                 return;
             }
-            k->col[k->index] = store;
+            else if (k->index == 4) {
+                date_and_time(k, store);
+            } else {
+                k->col[k->index] = store;
+            }
             store.clear();
             k->index = k->index + 1;
             continue;
@@ -39,7 +54,7 @@ void read_separately(Link *&k, string l) {
     // cout<<store<<'\n';
 }
 int main() {
-    freopen("output.txt", "w", stdout);
+    freopen("see.txt", "w", stdout);
     Link *h = new Link, *start;
     start = h;
     fstream file;
@@ -61,7 +76,7 @@ int main() {
     file.close();
     for (; start; start = start->next) {
         for (int i = 0; i < start->index; i++) {
-            cout << start->col[i];
+            cout << start->col[i] ;
         }
         cout << '\n';
     }
