@@ -1,2 +1,2 @@
-**Recursion Implementations:-**
-  **Linked List**
+**Recursion Implementations:-
+  * Linked List
