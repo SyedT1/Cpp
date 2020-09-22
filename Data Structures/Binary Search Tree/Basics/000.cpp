@@ -19,7 +19,7 @@ void insert(node *&k, int val) {
      
            6
        4       10
-     1  3    9    11
+     1  5    9    11
      
      i.First the value will check if the root(6) is nullptr(false) then it will move towards the right subtree(10) because 25>6
     ii.the value will check if the root of the curr subtree(10) is nullptr(false) then it will move towards the right subtree of 10(11) because 25>10
@@ -30,7 +30,7 @@ void insert(node *&k, int val) {
     After Assignment of value(s)
         6
     4      10
-  1  3   9    11
+  1  5   9    11
                 25
      
     */
