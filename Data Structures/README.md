@@ -9,3 +9,4 @@ Contents Covered -
 - **Linked List**
 - **Stack**
 - **Queue**
+- **Binary Search Tree**
