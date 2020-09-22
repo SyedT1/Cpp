@@ -1,3 +1,2 @@
-#### Node:-
-         - **Insertion**
-         - **Searching**
+## Introductory:-
+         Node{Insertion,Searching,Removal)
