@@ -1,2 +1,2 @@
-## Introductory:-
-         Node{Insertion,Searching,Removal)
+##### Introductory:-
+         Node { Insertion , Searching , Removal }
