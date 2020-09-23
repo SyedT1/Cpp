@@ -15,19 +15,6 @@ void insert(node *&k, int val) {
 		insert(k->lft, val);
 	}
 }
-/*
-int minValue(node *&k) {
-	if (!k->lft) {
-		int val = k->x;
-		if (k->rgt) {
-			k = k->rgt;
-		} else {
-			k = nullptr;
-		}
-		return val;
-	}
-	return minValue(k->lft);
-}*/
 int minValue(node *k) {
 	if (!k->lft) {
 		return k->x;
