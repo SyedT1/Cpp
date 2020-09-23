@@ -15,6 +15,7 @@ void insert(node *&k, int val) {
 		insert(k->lft, val);
 	}
 }
+/*
 int minValue(node *&k) {
 	if (!k->lft) {
 		int val = k->x;
@@ -24,6 +25,12 @@ int minValue(node *&k) {
 			k = nullptr;
 		}
 		return val;
+	}
+	return minValue(k->lft);
+}*/
+int minValue(node *k) {
+	if (!k->lft) {
+		return k->x;
 	}
 	return minValue(k->lft);
 }
@@ -68,7 +75,8 @@ void remove(int val, node *&k) {
 		To do:
 		*/
 		else {
-			k->x = minValue(k);
+			k->x = minValue(k->rgt);
+			remove(k->x, k->rgt);
 			//cout << "Condition 4 applied \n";
 			return;
 		}
