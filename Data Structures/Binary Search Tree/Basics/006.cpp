@@ -18,13 +18,20 @@ void insert(bst *&q, int val) {
 }
 int depthfinder(bst *q, int i) {
 	if (!q) {
-		return -1;
+		return -111111;
 	} else if (q->x == i) {
 		return 0;
 	} else if (i > q->x) {
 		return depthfinder(q->rgt, i) + 1;
 	} else {
 		return depthfinder(q->lft, i) + 1;
+	}
+}
+int depth(bst *q, int v) {
+	if (depthfinder(q, v) < 0) {
+		return -1;
+	} else {
+		return depthfinder(q, v);
 	}
 }
 int main() {
@@ -36,6 +43,6 @@ int main() {
 		cin >> po;
 		insert(k, po);
 	}
-	cout << depthfinder(k, 6) << '\n';
+	cout << "Depth of the node = " << depth(k, 33) << '\n';
 	return 0;
 }
