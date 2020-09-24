@@ -3,4 +3,4 @@
 
 
 ##### More Operations:-
-         Find { Number of leaves }
+         Find { Number of leaves, Number of nodes }
