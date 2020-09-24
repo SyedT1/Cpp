@@ -3,4 +3,4 @@
 
 
 ##### More Operations:-
-         Find { Number of leaves, Number of nodes }
+         Find { Number of leaves, Number of nodes, Depth of a tree, Height of a tree }
