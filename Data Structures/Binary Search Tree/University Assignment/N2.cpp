@@ -1,4 +1,4 @@
-include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 struct ll {
 	int data;
@@ -20,10 +20,15 @@ void pp(ll *k) {
 	cout << k->data << ' ';
 	pp(k->right);
 }
+void refill(ll *&k, ll* l) {
+	ll *temp = k;
+	k = l;
+	delete temp;
+}
 int findmin(ll *&k) {
 	if (!k->left) {
 		int fetch = k->data;
-		k = (k->right ? k->right : k->left);
+		refill(k, k->right ? k->right : k->left);
 		return fetch;
 	}
 	return findmin(k->left);
@@ -33,9 +38,9 @@ void del(ll *&k, int from, int to) {
 		k = nullptr;
 		return;
 	} else if (k->right == nullptr && k->left != nullptr) {
-		k = k->left;
+		refill(k, k->left);
 	} else if (k->right != nullptr && k->left == nullptr) {
-		k = k->right;
+		refill(k, k->right);
 	} else if (k->right != nullptr && k->left != nullptr) {
 		k->data = findmin(k->right);
 	}
@@ -67,6 +72,6 @@ int main() {
 	}
 	pp(tree);
 	cout << '\n';
-	range(tree, 1, 10);
+	range(tree, -3, 6);
 	pp(tree);
 }
