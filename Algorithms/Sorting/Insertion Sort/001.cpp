@@ -5,17 +5,11 @@ int main() {
 	n = sizeof(a) / sizeof(int);
 	for (int i = 1; i < n; i++) {
 		int _to_hold_ = i, tmp = a[i];
-		while (tmp < a[_to_hold_ - 1]) {
+		while (tmp < a[_to_hold_ - 1] && _to_hold_ > 0 ) {
 			a[_to_hold_] = a[_to_hold_ - 1];
 			_to_hold_ --;
-			if (_to_hold_ == 0) {
-				a[_to_hold_] = tmp;
-				break;
-			}
 		}
-		if (_to_hold_ != 0) {
-			a[_to_hold_] = tmp;
-		}
+		a[_to_hold_] = tmp;
 	}
 	for (int i : a) {
 		cout << i << ' ';
