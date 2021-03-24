@@ -13,9 +13,9 @@ Your function should not make any externally visible changes to the stack passed
 **Constraints:**  
 
 
-Do not use any loops; you must use recursion.
-Do not create or use any auxiliary data structures like additional Queues, Stacks, Vector, Map, Set, array, strings, etc. You should also not call functions that return multi-element regions of a vector, such as sublist.
-Do not solve this problem using "string hacks" related to the toString result of a Stack, such as by calling toString() and then searching for commas or other patterns.
-Do not declare any global variables. You can declare as many primitive variables like ints as you like.
-Your solution should run in no worse than O(N) time, where N is the number of elements in the stack.
-You are allowed to define other "helper" functions if you like; they are subject to these same constraints.
+1. Do not use any loops; you must use recursion.
+2. Do not create or use any auxiliary data structures like additional Queues, Stacks, Vector, Map, Set, array, strings, etc. You should also not call functions that 3. return multi-element regions of a vector, such as sublist.
+4. Do not solve this problem using "string hacks" related to the toString result of a Stack, such as by calling toString() and then searching for commas or other 5. 5. patterns.
+6. Do not declare any global variables. You can declare as many primitive variables like ints as you like.
+8. Your solution should run in no worse than O(N) time, where N is the number of elements in the stack.
+9. You are allowed to define other "helper" functions if you like; they are subject to these same constraints.
