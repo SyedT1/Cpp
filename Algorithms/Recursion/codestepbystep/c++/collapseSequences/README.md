@@ -5,11 +5,8 @@
 **The following table shows several calls and their expected return values:**
 
 Call	Returns
-...
-{
-   "collapseSequences" : "("aabaaccaaaaaada", 'a')	"abaccada" "
-}
-...
+collapseSequences("aabaaccaaaaaada", 'a')	"abaccada"  
+
 collapseSequences("mississssipppi", 's')	"misisipppi"
 collapseSequences("babbbbebbbxbbbbbb", 'b')	"babebxb"
 collapseSequences("palo alto", 'o');	"palo alto"
