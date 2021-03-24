@@ -7,7 +7,8 @@ Your function is **case-sensitive**; if the character c is, for example, a lower
 The following table shows several calls and their expected return values:  
 
 
-**Call	Returns**
+**Call	Returns:-**  
+
 **collapseSequences("aabaaccaaaaaada", 'a')	"abaccada"**  
 
 **collapseSequences("mississssipppi", 's')	"misisipppi"**  
