@@ -6,8 +6,9 @@ Call	Meaning	Output
 3. **countToBy(30,4)**;	count to 30 by 4s	2, 6, 10, 14, 18, 22, 26, 30
 4. **countToBy(34,5)**;	count to 34 by 5s	4, 9, 14, 19, 24, 29, 34
 5. **countToBy(3,6)**;	count to 3 by 6s	3
-6. **countToBy(17,3)**;	count to 17 by 3s	2, 5, 8, 11, 14, 17
-7. **Notice that the increment does not have to be 1, such as when counting to 25 by 4s. The count must always end at n, but notice that at will not always be possible to start counting at 1, as shown in the output when n is 30 and m is 4. But the first number should always be in the range of 1 to m inclusive. It is possible that only one number will be printed, as shown in the output when n is 3 and m is 6.  
+6. **countToBy(17,3)**;	count to 17 by 3s	2, 5, 8, 11, 14, 17  
+
+ **Notice that the increment does not have to be 1, such as when counting to 25 by 4s. The count must always end at n, but notice that at will not always be possible to start counting at 1, as shown in the output when n is 30 and m is 4. But the first number should always be in the range of 1 to m inclusive. It is possible that only one number will be printed, as shown in the output when n is 3 and m is 6.**  
 
 
 **Your function should throw an int exception if either m or n is less than 1. Note that the output does not advance to the next line.**
