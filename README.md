@@ -6,4 +6,6 @@
 ![alt text](https://github.com/SyedT1/Cpp/blob/master/img/0_UVG1F-0kLAEWAT3k.jpg)  
 
 ### **Algorithms**
+![alt text](https://github.com/SyedT1/Cpp/blob/master/img/types-of-algorithm.jpg)  
+
 ### **STL**
