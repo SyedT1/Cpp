@@ -3,9 +3,7 @@
 
 # Understanding C++ Through:-
 ### **Data Structures**
+![alt text](https://github.com/SyedT1/Cpp/blob/master/img/0_UVG1F-0kLAEWAT3k.jpg)  
+
 ### **Algorithms**
 ### **STL**
-
-
-
- ![alt text](https://github.com/SyedT1/Cpp/blob/master/6038586442907648.jpg)
