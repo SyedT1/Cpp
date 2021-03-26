@@ -3,11 +3,9 @@ using namespace std;
 int main() {
 	//Removing chars from a string (pop_front)
 	string s = "Hello";
-	while (s.length() > 1) {
+	while (s.length()) {
 		cout << s << ' ';
-		s = &s[1];
-		if (s.length() == 1) {
-			cout << s;
-		}
+		if (s.length() == 1)s[0] = '\0';
+		s = &s[(s.length() > 1)];
 	}
 }
