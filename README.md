@@ -8,5 +8,5 @@
 ### **Algorithms**
 ![alt text](https://github.com/SyedT1/Cpp/blob/master/img/24_what-is-an-algorithm-featured.jpg)  
 
-### **STL**
-![alt text](https://github.com/SyedT1/Cpp/blob/master/img/maxresdefault.jpg)
+### **OOP**  
+![alt text](https://github.com/SyedT1/Cpp/blob/master/img/1280px-OOP.svg.jpg)
