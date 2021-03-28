@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
-#include<cstdlib>
-#include<ctime>
-#include<fstream>
+#include <bits/stdc++.h>
+#include <cstdlib>
+#include <ctime>
+#include <fstream>
 using namespace std;
 int main()
 {
@@ -91,7 +91,7 @@ int main()
                 fileo << p[i] << ' ';
             }
         }
-        // Closing the output text file which contains sorted order
+        // Closing the output text file which contains sorted order  
         fileo.close();
     }
     return 0;
