@@ -36,17 +36,25 @@ void ins(list *&k, int v)
     n->next = temp;
     return;
 }
+void display_destroy(list *&k)
+{
+    if (k == nullptr)
+    {
+        cout << "Values in descending order = \n";
+        return;
+    }
+    display_destroy(k->next);
+    cout << k->value << " will be destroyed\n";
+    delete k;
+}
 int main()
 {
     int _[] = {-1, -333, 4, 5, 234, 4};
-    list *lip = nullptr;
+    list *node = nullptr;
     for (int i : _)
     {
-        ins(lip, i);
+        ins(node, i);
     }
-    while (lip)
-    {
-        cout << lip->value << ' ';
-        lip = lip->next;
-    }
+    display_destroy(node);
+    return 0;
 }
