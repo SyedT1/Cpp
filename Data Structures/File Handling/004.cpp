@@ -91,7 +91,7 @@ int main()
                 fileo << p[i] << ' ';
             }
         }
-        // Closing the output text file which contains sorted order  
+        //  Closing the output text file which contains sorted order  
         fileo.close();
     }
     return 0;
