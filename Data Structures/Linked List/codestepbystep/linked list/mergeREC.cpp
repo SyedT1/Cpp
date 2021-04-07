@@ -20,9 +20,10 @@ void adjoin(ListNode *&A, ListNode *&B)
 }
 ListNode *merge(ListNode *&k, ListNode *l)
 {
-    if(k==nullptr){
-        return l;
-    }
+	if (k == nullptr)
+	{
+		return l;
+	}
 	if (l == nullptr)
 	{
 		return k;
