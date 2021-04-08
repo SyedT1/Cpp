@@ -24,10 +24,6 @@ void switchPairsOfPairs(ListNode *&k)
             {
                 ends = true;
             }
-            if (nxt == nullptr)
-            {
-                ends = true;
-            }
             if (p == nullptr)
             {
                 ListNode *Soul = initial->next->next;
