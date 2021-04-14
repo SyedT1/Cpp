@@ -3,8 +3,8 @@
 + [CppCon](https://www.youtube.com/user/CppCon/playlists)
 + [onelonecoder](https://www.youtube.com/c/javidx9/playlists)
 
-## [C++ reference](https://en.cppreference.com/w/)
-## [C++ international standard](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdf)
+## [C++ Reference](https://en.cppreference.com/w/)
+## [C++ International Standard](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdf)
 
 # Understanding C++ Through:-
 ### **Data Structures**
