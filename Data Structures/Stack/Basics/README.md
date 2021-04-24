@@ -7,11 +7,13 @@
 
 ## Reversing a stack
 ```cpp
-void reverse(stack<int>&p){
-   if(p.empty())return;
-   int temp = p.top();
-   p.pop();
-   reverse(p);
-   p.push(temp);
+void reverse(stack<int> &p)
+{
+    if (p.empty())
+        return;
+    int temp = p.top();
+    p.pop();
+    reverse(p);
+    p.push(temp);
 }
 ```
