@@ -10,10 +10,6 @@ void splitStack(int v, stack<int> &p)
             p.push(v);
             return;
         }
-        int temp = p.top();
-        p.pop();
-        splitStack(v, p);
-        p.push(temp);
     }
     else
     {
@@ -22,11 +18,11 @@ void splitStack(int v, stack<int> &p)
             p.push(v);
             return;
         }
-        int temp = p.top();
-        p.pop();
-        splitStack(v, p);
-        p.push(temp);
     }
+    int temp = p.top();
+    p.pop();
+    splitStack(v, p);
+    p.push(temp);
 }
 void splitStack(stack<int> &p)
 {
