@@ -1,3 +1,4 @@
+# [Book List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 # Important Youtube Links
 + [Cherno Project](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 + [CppCon](https://www.youtube.com/user/CppCon/playlists)
