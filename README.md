@@ -4,6 +4,7 @@
 + [CppCon](https://www.youtube.com/user/CppCon/playlists)
 + [onelonecoder](https://www.youtube.com/c/javidx9/playlists)
 + [CPP beginner to Advanced](https://www.youtube.com/watch?v=8jLOx1hD3_o&t=104669s)
++ [Efficient Programming with components](https://www.youtube.com/watch?v=aIHAEYyoTUc&list=PLHxtyCq_WDLXryyw91lahwdtpZsmo4BGD&index=1)
 
 ## [C++ Reference](https://en.cppreference.com/w/)
 ## [C++ International Standard](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdf)
