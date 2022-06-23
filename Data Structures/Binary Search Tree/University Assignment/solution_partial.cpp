@@ -134,27 +134,16 @@ int main()
          {
             if (str1 != "empty")
             {
-               for (char c : str1)
-               {
-                  if (!checkifpresent(hc, int(c - '0')))
-                  {
-                     insert(hc, int(c - '0'));
-                  }
-               }
+               cout << str1 << endl;
+               continue;
             }
-            if (str2 != "empty")
+            else if (str2 != "empty")
             {
-               for (char c : str2)
-               {
-                  if (checkifpresent(hc, int(c - '0')) && !checkifpresent(cmnstr, int(c - '0')))
-                  {
-                     common_str += char(c);
-                     insert(cmnstr, int(c - '0'));
-                  }
-               }
+               cout << str2 << endl;
+               continue;
             }
          }
-         else
+         if (str1 != "empty")
          {
             for (char c : str1)
             {
@@ -163,6 +152,9 @@ int main()
                   insert(hc, int(c - '0'));
                }
             }
+         }
+         if (str2 != "empty")
+         {
             for (char c : str2)
             {
                if (checkifpresent(hc, int(c - '0')) && !checkifpresent(cmnstr, int(c - '0')))
